@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal - Informática Industrial</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome (íconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header (Hero Section) -->
+    <header class="hero bg-primary text-white text-center py-5 mt-5">
+        <div class="container">
+            <img src="mifoto.jpg" alt="Tu foto" class="rounded-circle mb-3">
+            <h1>¡Hola! Soy Grover Quispe Lopez</h1>
+            <p class="lead">Estudiante de Informática Industrial en el EISPDM | Amante del fútbol, los perritos y los juegos.</p>
+        </div>
+    </header>
+
+    <!-- Sobre Mí -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre Mí</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Soy estudiante de <strong>Informática Industrial</strong> en el <strong>EISPDM</strong>. Me apasiona la tecnología, la programación y cómo aplicarla a soluciones industriales.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>En mi tiempo libre, disfruto jugando <strong>fútbol</strong> y <strong>futsal</strong> los fines de semana, cuidando a mis perritos y explorando nuevos videojuegos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies -->
+    <section id="hobbies" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Mis Hobbies</h2>
+            <div class="row">
+                <!-- Fútbol/Futsal -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="futbol.jpg" class="card-img-top" alt="Fútbol">
+                        <div class="card-body">
+                            <h5 class="card-title">Fútbol y Futsal</h5>
+                            <p class="card-text">Juego los fines de semana con amigos. ¡Mi posición favorita es delantero!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Perritos -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="mascota.jpg" class="card-img-top" alt="Perritos">
+                        <div class="card-body">
+                            <h5 class="card-title">Perritos</h5>
+                            <p class="card-text">Amante de los animales, especialmente los perros. Tengo 2 golden retrievers.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Juegos -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="videojuegos.jpg" class="card-img-top" alt="Juegos">
+                        <div class="card-body">
+                            <h5 class="card-title">Juegos</h5>
+                            <p class="card-text">Fanático de los videojuegos, desde FIFA hasta RPGs como The Witcher.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Galería</h2>
+            <div class="row">
+                <!-- Espacio para imágenes (puedes agregar más) -->
+                <div class="col-md-4 mb-4">
+                    <img src="estudio.jpg" class="img-fluid rounded" alt="Imagen 1">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="estudio2.jpg" class="img-fluid rounded" alt="Imagen 2">
+                </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Redes Sociales -->
+            <div class="text-center mt-4">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-black text-white text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Mi Blog Personal. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
